@@ -104,7 +104,7 @@ function renderTaskList() {
 	if (tasks.length === 0) {
 		taskList.innerHTML = `
             <div class="empty-state">
-                <p>No tasks yet. Add one above!</p>
+                <p>No tasks. Add one above!</p>
             </div>
         `;
 		return;
