@@ -1,0 +1,30 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="src/css/style.css" />
+		<title>Todo App</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>My Todo List</h1>
+
+			<!-- form to ad task and display -->
+			<form id="todo-form">
+				<input
+					type="text"
+					id="task-input"
+					placeholder="Add a new Task..."
+					required />
+				<button type="submit">Add Task</button>
+			</form>
+
+			<ul id="task-list"></ul>
+		</div>
+
+		<script src="src/js/app.js"></script>
+	</body>
+</html>
